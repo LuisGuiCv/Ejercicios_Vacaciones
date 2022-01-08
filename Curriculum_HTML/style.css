@@ -3,10 +3,10 @@ color: #FFFFFF;
 text-align: center;
 text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
 color: #FFFFFF;
-font-size: 40px;
+font-size: 100px;
 
 }
-#fondo{
+.fondo{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -20,59 +20,105 @@ font-size: 40px;
 
   .menu{
     color: white;
-    padding: 5px 15px;
-    text-align: left;
-    position: relative;
-    left: 300px;
-    bottom: 40px;
+    text-align: center;
+   
 }
 .menu li{
     list-style: none;
     padding: 5px;
-
-    font: bold 14px verdana;
+    font: bold 30px verdana;
     display: inline-block;
-    
+
+    border-right: 1px solid white;
+    text-align: center;
+  
 }
-#section_1{
-    padding: 20px;
-    width: 300px;
-    height: 1150px;
-    background-color: #92a8d1;
-    float: left;
-    margin: 20px;
-    margin-left: 200px;
+#carrera{
+    color: white;
+    text-align: center;
+    font-size: 40px
+}
+#main{
+        width:100%;
+        height:100%;
+        margin: 0px;
+        object-fit: cover;
+        background-image: url("sistemas.jpg");
+        position: relative;
+        
+    z-index: -1;
+        bottom: 65px;
+        padding-bottom: 10px;
+
+}
+.imgRedonda {
+    width:600px;
+    height:600px;
+    position: relative;
+    left: 400px;
+    top: 100px;
+    border-radius:300px;
+}
+#nav{
+    background-color: black;
+    position: relative;
+    bottom: 79px;
+}
+#desc{
+
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    left: 1300px;
+    bottom: 500px;
+    font-family: 'Times New Roman';
+    margin: 0px;
     text-align: justify;
-    
-    
+    padding: 0px;
+    font-size:40px;
+    color: white;
+}
+.titulo1{
+    text-align: center; 
+    font-family:Times New Roman; 
+    color: white; 
+    font-size: 70px;
+    margin: 0px;
+    padding: 0px;
+}
+#habilidades{
+    background-color: darkred;
+    position: relative;
+    bottom: 350px;
+    height: 1600px;
+
 }
 
-#section_2{
-    padding: 20px;
-    width: 700px;
-    background-color: #FFF8DC;
-    float: left;
-    margin: 20px;
-    height: 380px;
-    
+.lenguajes{
+    width: 600px;
+    height: 600px;
+    margin: 30px;
+    position: relative;
+    left: 180px;
 }
 
-#section_3{
-    padding: 20px;
-    width: 700px;
-    background-color: #FFF8DC;
-    float: left;
-    margin: 20px;
-    height: 350px;
-    
+#experiencia{
+   height: 800px;
+    font-family: 'Times New Roman';
+    position: relative;
+    bottom: 360px;
+    text-align: justify;
+    padding: 0px;
+    font-size:25px;
+    color: white;
+    background-color: darkslategray;
+
 }
 
-#section_4{
-    padding: 20px;
-    width: 700px;
-    background-color: #FFF8DC;
-    float: left;
-    margin: 20px;
-    height: 260px;
-    
+#desc2{
+    position: relative;
+    left: 1000px;
+    bottom: 650px;
+    width: 900px;
+    height:500px;
 }
